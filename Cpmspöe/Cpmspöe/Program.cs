@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace esimerkit
 {
-    class softa
+    class v
     {
         internal struct lukutaulu
         {
@@ -473,7 +473,7 @@ namespace esimerkit
             bool tila = true;
             while (tila)
             {
-                Console.WriteLine(luku);
+               
                 if (luku2 == luku)
                 {
                     Console.WriteLine("ONNEKSI OLKOON ARVASIT OIKEIN!!! Luku oli "+luku);
