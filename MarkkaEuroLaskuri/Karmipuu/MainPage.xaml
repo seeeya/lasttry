@@ -7,34 +7,38 @@
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     mc:Ignorable="d">
 
-    <Grid Background="#FF13245D">
-        <TextBlock x:Name="textBlock" HorizontalAlignment="Left" Height="64" Margin="0,194,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="226" SelectionChanged="textBlock_SelectionChanged" FontSize="24" Foreground="#FFF5E4E4">
+    <Grid Background="#FF13245D" Margin="1,0,-1,0">
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+        <TextBlock x:Name="textBlock" HorizontalAlignment="Left" Height="58" Margin="17,199,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="227" SelectionChanged="textBlock_SelectionChanged" FontSize="21.333" Foreground="White">
         	<Run Text="Ikkunan "/>
         	<Run Text="korkeus"/>
         	<Run Text=" (mm)"/>
         </TextBlock>
-        <TextBlock x:Name="textBlock_Copy" HorizontalAlignment="Left" Height="64" Margin="0,263,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="226" SelectionChanged="textBlock_SelectionChanged" FontSize="24" Foreground="#FFF5E4E4">
+        <TextBlock x:Name="textBlock_Copy" HorizontalAlignment="Left" Height="60" Margin="17,258,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="205" SelectionChanged="textBlock_SelectionChanged" FontSize="21.333" Foreground="White">
         	<Run Text="Ikkunan "/>
         	<Run Text="leveys"/>
         	<Run Text=" (mm)"/>
         </TextBlock>
-        <TextBlock x:Name="textBlock_Copy1" HorizontalAlignment="Left" Height="64" Margin="0,332,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="226" SelectionChanged="textBlock_SelectionChanged" FontSize="24" Foreground="#FFF5E4E4">
+        <TextBlock x:Name="textBlock_Copy1" HorizontalAlignment="Left" Height="60" Margin="17,323,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="205" SelectionChanged="textBlock_SelectionChanged" FontSize="21.333" Foreground="White">
         	<Run Text="Karmin leveys "/>
         	<Run Text="(mm)"/>
         </TextBlock>
-        <TextBlock x:Name="textBlock_Copy2" HorizontalAlignment="Left" Height="64" Margin="10,575,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="216" SelectionChanged="textBlock_SelectionChanged" FontSize="24" Foreground="#FFF5E4E4" Text="Ikkunan pinta-ala"/>
-        <TextBlock x:Name="textBlock_Copy3" HorizontalAlignment="Left" Height="64" Margin="10,639,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="216" SelectionChanged="textBlock_SelectionChanged" FontSize="24" Foreground="#FFF5E4E4" Text="Lasin pinta-ala"/>
-        <TextBlock x:Name="textBlock_Copy4" HorizontalAlignment="Left" Height="64" Margin="10,694,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="216" SelectionChanged="textBlock_SelectionChanged" FontSize="24" Foreground="#FFF5E4E4">
+        <TextBlock x:Name="textBlock_Copy2" HorizontalAlignment="Left" Height="64" Margin="10,575,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="216" SelectionChanged="textBlock_SelectionChanged" FontSize="24" Foreground="White" Text="Ikkunan pinta-ala"/>
+        <TextBlock x:Name="textBlock_Copy3" HorizontalAlignment="Left" Height="64" Margin="10,639,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="216" SelectionChanged="textBlock_SelectionChanged" FontSize="24" Foreground="White" Text="Lasin pinta-ala"/>
+        <TextBlock x:Name="textBlock_Copy4" HorizontalAlignment="Left" Height="64" Margin="10,695,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="216" SelectionChanged="textBlock_SelectionChanged" FontSize="24" Foreground="White">
         	<Run Text="Karmin "/>
         	<Run Text="piiri"/>
         </TextBlock>
-        <TextBox x:Name="lKorkeus" HorizontalAlignment="Left" Margin="231,194,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Height="64" Width="191" FontSize="24"/>
-        <TextBox x:Name="lLeveys" HorizontalAlignment="Left" Margin="231,263,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Height="64" Width="191" FontSize="24"/>
-        <TextBox x:Name="kKorkeus" HorizontalAlignment="Left" Margin="231,327,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Height="64" Width="191" FontSize="24"/>
-        <TextBlock x:Name="ikkunapinta" HorizontalAlignment="Left" Height="59" Margin="226,575,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="196" FontSize="24" Foreground="#FFFDF6F6"/>
-        <TextBlock x:Name="lasipinta" HorizontalAlignment="Left" Height="59" Margin="226,639,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="196" FontSize="24" Foreground="#FFFDF6F6"/>
-        <TextBlock x:Name="karmipiiri" HorizontalAlignment="Left" Height="59" Margin="226,698,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="196" FontSize="24" Foreground="#FFFDF6F6"/>
+        <TextBox x:Name="lKorkeus" HorizontalAlignment="Left" Margin="249,197,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Height="60" Width="173" FontSize="21.333" Foreground="White"/>
+        <TextBox x:Name="lLeveys" HorizontalAlignment="Left" Margin="249,261,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Height="60" Width="173" FontSize="21.333" Foreground="White"/>
+        <TextBox x:Name="kKorkeus" HorizontalAlignment="Left" Margin="249,323,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Height="58" Width="173" FontSize="21.333" Foreground="White"/>
+        <TextBlock x:Name="ikkunapinta" HorizontalAlignment="Left" Height="59" Margin="226,575,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="196" FontSize="24" Foreground="White"/>
+        <TextBlock x:Name="lasipinta" HorizontalAlignment="Left" Height="59" Margin="226,639,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="196" FontSize="24" Foreground="White"/>
+        <TextBlock x:Name="karmipiiri" HorizontalAlignment="Left" Height="59" Margin="226,699,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="196" FontSize="24" Foreground="White"/>
         <Button x:Name="button" Content="Laske" HorizontalAlignment="Left" Height="72" Margin="55,456,0,0" VerticalAlignment="Top" Width="327" FontSize="32" Foreground="White" BorderBrush="#FF005DFF" Click="button_Click"/>
+        <TextBlock x:Name="textBlock1" HorizontalAlignment="Left" Height="123" Margin="55,69,0,0" TextWrapping="Wrap" Text="Laske ikkunan ja lasin pinta-alat ja karmin piiri " VerticalAlignment="Top" Width="327" Foreground="#FFFBFBFB" FontSize="26.667"/>
 
     </Grid>
 </Page>
